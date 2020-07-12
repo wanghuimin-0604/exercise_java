@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+         metadata-complete="true">
+
+  <servlet>
+    <servlet-name>java16_hello</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>java16_hello</servlet-name>
+    <url-pattern>/java16_hello</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>servlet_demo1</servlet-name>
+    <servlet-class>ServletDemo1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet_demo1</servlet-name>
+    <url-pattern>/servlet_demo1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>form_servlet</servlet-name>
+    <servlet-class>ServletDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>form_servlet</servlet-name>
+    <url-pattern>/ServletDemo2</url-pattern>
+  </servlet-mapping>
+
+</web-app>
